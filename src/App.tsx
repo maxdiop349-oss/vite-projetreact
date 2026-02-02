@@ -7,16 +7,19 @@ import Pricing from "./composants/pricing";
 import Testimonial from "./composants/Testimonial";
 import Workflow from "./composants/workflow";
 
-const App = () =>{
+const App = () => {
   return (
     <>
-      <Navbar/>
-  <Herosection />
-  <FeatureSection />
-  <Workflow />
-  <Pricing/>
-<Testimonial />
-<Footer/>
+      <Navbar />
+      <div className="max-w-7xl mx-auto">
+        <Herosection />
+        <FeatureSection />
+        <Workflow />
+        <Pricing />
+        <Testimonial />
+      </div>
+
+      <Footer />
     </>
   );
 };
